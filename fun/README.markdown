@@ -1,0 +1,1 @@
+# While learning about JavaScript, HTML5, CSS, I had done some fun/mini project.
