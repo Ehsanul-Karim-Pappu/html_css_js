@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="store.html" method="GET">
+        <div>
+            <label for="fname">First name:<abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" name="First Name" id="fname" required placeholder="first name">
+        </div>
+        <div>
+            <label for="mname">Middle name:<abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" name="Middle Name" id="mname" required placeholder="middle name">
+        </div>
+        <div>
+            <label for="lname">Last name:<abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" name="Last Name" id="lname" required placeholder="last name">
+        </div>
+        <div>
+            <label for="mname">User name:</label>
+            <input type="text" name="User Name" id="mname" placeholder="username">
+        </div>
+        <div>
+            <label for="password">Password:<abbr title="required" aria-label="required">*</abbr></label>
+            <input type="password" name="Password" id="password" minlength="8" maxlength="20" required placeholder="password">
+        </div>
+        <div>
+            <label for="bd">Date of Birth:</label>
+            <input type="date" name="Date of Birth" id="bd">
+        </div>
+        <div>
+            <label for="mobno">Mobile Number:</label>
+            <input type="tel" name="Mobile Number" id="mobno" placeholder="Contact no.">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" placeholder="mail id">
+        </div>
+        <div>
+            <label for="dept">Department</label>
+            <select name="Department" id="dept">
+                <option value="none" selected disabled hidden>Select your dept.</option>
+                <option value="EEE">EEE</option>
+                <option value="CSE">CSE</option>
+                <option value="ME">ME</option>
+                <option value="CE">CE</option>
+                <option value="Archi">Archi</option>
+            </select>
+        </div>
+        <div>
+            Gender:
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female" value="Female">
+            <label for="other">Other</label>
+            <input type="radio" name="Gender" id="other" value="Other">
+        </div>
+        <div>
+            Technology:
+            <div>
+                <label for="c">C</label>
+                <input type="checkbox" name="C" id="c">
+            </div>
+            <div>
+                <label for="cpp">C++</label>
+                <input type="checkbox" name="C++" id="cpp">
+            </div>
+            <div>
+                <label for="py">Python</label>
+                <input type="checkbox" name="Python" id="py">
+            </div>
+            <div>
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="JavaScript" id="js">
+            </div>
+            <div>
+                <label for="java">Java</label>
+                <input type="checkbox" name="Java" id="java">
+            </div>
+            <div>
+                <label for="matlab">Matlab</label>
+                <input type="checkbox" name="Matlab" id="matlab">
+            </div>
+        </div>
+        <div>
+            <label for="fb">Facebook profile link:</label>
+            <input type="url" name="Facebook link" id="fb">
+        </div>
+        <div>
+            <label for="clr">Eye Color:</label>
+            <input type="color" name="Eye Color" id="clr">
+        </div>
+        <div>
+            <label for="cmnt">Comment:</label>
+            <textarea name="Comment" id="cmnt" cols="30" rows="5" placeholder="enter your comment"></textarea>
+        </div>
+        <div>
+            <label for="propic">Profile Picture:</label>
+            <input type="file" name="Profile Picture" id="propic">
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <a href="mailto:ehsan.pappu.99@gmail.com?subject=Feedback&body=Great%20work.%0D%0AKeep%20it%20up.">Send me a
+                Feedback</a>
+        </div>
+    </form>
+</body>
+
+</html>
