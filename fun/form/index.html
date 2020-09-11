@@ -4,30 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Form</title>
 </head>
 
 <body>
     <form action="store.html" method="GET">
         <div>
-            <label for="fname">First name:<abbr title="required" aria-label="required">*</abbr></label>
+            <label for="fname">First name:<abbr title="required">*</abbr></label>
             <input type="text" name="First Name" id="fname" required placeholder="first name">
         </div>
         <div>
-            <label for="mname">Middle name:<abbr title="required" aria-label="required">*</abbr></label>
+            <label for="mname">Middle name:<abbr title="required">*</abbr></label>
             <input type="text" name="Middle Name" id="mname" required placeholder="middle name">
         </div>
         <div>
-            <label for="lname">Last name:<abbr title="required" aria-label="required">*</abbr></label>
+            <label for="lname">Last name:<abbr title="required">*</abbr></label>
             <input type="text" name="Last Name" id="lname" required placeholder="last name">
         </div>
         <div>
-            <label for="mname">User name:</label>
-            <input type="text" name="User Name" id="mname" placeholder="username">
+            <label for="uname">User name:</label>
+            <input type="text" name="User Name" id="uname" placeholder="username">
         </div>
         <div>
-            <label for="password">Password:<abbr title="required" aria-label="required">*</abbr></label>
-            <input type="password" name="Password" id="password" minlength="8" maxlength="20" required placeholder="password">
+            <label for="password">Password:<abbr title="required">*</abbr></label>
+            <input type="password" name="Password" id="password" minlength="8" maxlength="20" required
+                placeholder="password">
         </div>
         <div>
             <label for="bd">Date of Birth:</label>
@@ -110,11 +113,18 @@
             <button type="reset">Reset</button>
         </div>
         <br>
-        <br>
         <div>
             <a href="mailto:ehsan.pappu.99@gmail.com?subject=Feedback&body=Great%20work.%0D%0AKeep%20it%20up.">Send me a
                 Feedback</a>
         </div>
+        <br>
+        <div>
+            <a href="https://github.com/Ehsanul-Karim-Pappu/html_css_js"><i
+                    class="fa fa-code-branch fa-lg"></i></a>&nbsp;
+            <a href="https://github.com/Ehsanul-Karim-Pappu"><i class="fab fa-github fa-lg"></i></a>&nbsp;
+            <a href="https://www.facebook.com/ehsanulkarimpappu/"><i class="fab fa-facebook fa-lg"></i></a>
+        </div>
+
     </form>
 </body>
 
