@@ -17,16 +17,14 @@ To get a local copy on your machine
 git clone https://github.com/Ehsanul-Karim-Pappu/sorting_algo_visualization.git
 ```
 
-## Gameplay
+## Algorithms
+   
+-   Bubble Sort
+-   Selection Sort
+-   Insertion Sort
+-   Merge Sort
 
--   
--   The ball will appear in the middle of the canvas at the beginning and start moving downwards in a random direction.
--   Player will have 5 lives at each level and each time the ball has fallen, player will lose a life.
--   There are four levels. The speed of the ball will increase as the level increases.
--   There are also some Power-Ups. This Power-Ups will appear randomly when a brick is being broken.
--   Player can catch or avoid the Power-Ups with the paddle.
-
-![](https://github.com/Ehsanul-Karim-Pappu/html_css_js/tree/master/fun/visualizing_sorting_algo/soting_algo_vis.gif)
+![](https://github.com/Ehsanul-Karim-Pappu/html_css_js/blob/master/fun/visualizing_sorting_algo/soting_algo_vis.gif)
 
 ## Screenshots
 
